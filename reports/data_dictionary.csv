@@ -1,0 +1,24 @@
+variable,data_type,n_missing,n_unique,min,max,mean,contoh_nilai,deskripsi,nilai_harapan
+track_id,object,0,28356,-,-,-,"['6f807x0ima9a1j3VPbc7VN', '0r7CVbZTWZgbTCYdfa2P31', '1z1Hg7Vb0AhHDiEmnDE79l']",ID unik lagu di Spotify,String unik dan tidak kosong
+track_name,object,5,23449,-,-,-,"[""I Don't Care (with Justin Bieber) - Loud Luxury Remix"", 'Memories - Dillon Francis Remix', 'All the Time - Don Diablo Remix']",Judul lagu,String
+track_artist,object,5,10692,-,-,-,"['Ed Sheeran', 'Maroon 5', 'Zara Larsson']",Nama artis,String
+track_popularity,int64,0,101,0,100,42.477,"[66, 67, 70]",Skor popularitas lagu (0-100),Integer 0 sampai 100
+track_album_id,object,0,22545,-,-,-,"['2oCs0DGTsRO98Gh5ZSl2Cx', '63rPSO264uRjW1X5E6cWv6', '1HoSmj2eLcsrR0vE9gThr4']",ID album di Spotify,String
+track_album_name,object,5,19743,-,-,-,"[""I Don't Care (with Justin Bieber) [Loud Luxury Remix]"", 'Memories (Dillon Francis Remix)', 'All the Time (Don Diablo Remix)']",Nama album,String
+track_album_release_date,object,0,4530,-,-,-,"['2019-06-14', '2019-12-13', '2019-07-05']",Tanggal rilis album,YYYY atau YYYY-MM atau YYYY-MM-DD
+playlist_name,object,0,449,-,-,-,"['Pop Remix', 'Dance Pop', 'Dance Room']",Nama playlist,String
+playlist_id,object,0,471,-,-,-,"['37i9dQZF1DXcZDD7cfEKhW', '37i9dQZF1DWZQaaqNMbbXa', '37i9dQZF1DX2ENAPP1Tyed']",ID playlist di Spotify,String
+playlist_genre,object,0,6,-,-,-,"['pop', 'rap', 'rock']",Genre playlist,"pop, rap, rock, latin, r&b, edm"
+playlist_subgenre,object,0,24,-,-,-,"['dance pop', 'post-teen pop', 'electropop']",Subgenre playlist,Kategori teks
+danceability,float64,0,822,0.0,0.983,0.655,"[0.748, 0.726, 0.675]",Seberapa cocok lagu untuk menari (0-1),Float 0.0 sampai 1.0
+energy,float64,0,952,0.000175,1.0,0.699,"[0.916, 0.815, 0.931]",Intensitas dan aktivitas lagu (0-1),Float 0.0 sampai 1.0
+key,int64,0,12,0,11,5.374,"[6, 11, 1]",Nada dasar lagu (0-11),Integer 0 sampai 11
+loudness,float64,0,10222,-46.448,1.275,-6.719,"[-2.634, -4.969, -3.432]",Kekerasan suara dalam dB,Float
+mode,int64,0,2,0,1,0.566,"[1, 0]",Mayor=1 atau Minor=0,0 atau 1
+speechiness,float64,0,1270,0.0,0.918,0.107,"[0.0583, 0.0373, 0.0742]",Proporsi kata-kata (0-1),Float 0.0 sampai 1.0
+acousticness,float64,0,3731,0.0,0.994,0.175,"[0.102, 0.0724, 0.0794]",Seberapa akustik lagu tersebut (0-1),Float 0.0 sampai 1.0
+instrumentalness,float64,0,4729,0.0,0.994,0.085,"[0.0, 0.00421, 2.33e-05]",Kemungkinan lagu tanpa vokal (0-1),Float 0.0 sampai 1.0
+liveness,float64,0,1624,0.0,0.996,0.19,"[0.0653, 0.357, 0.11]",Kemungkinan direkam secara live (0-1),Float 0.0 sampai 1.0
+valence,float64,0,1362,0.0,0.991,0.511,"[0.518, 0.693, 0.613]",Positivitas lagu (0-1),Float 0.0 sampai 1.0
+tempo,float64,0,17684,0.0,239.44,120.881,"[122.036, 99.972, 124.008]",Kecepatan lagu dalam BPM,Float lebih dari 0
+duration_ms,int64,0,19785,4000,517810,225799.812,"[194754, 162600, 176616]",Durasi lagu dalam milidetik,Integer lebih dari 0
